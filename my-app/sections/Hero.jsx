@@ -23,15 +23,30 @@ const Hero = () => (
           className="flex flex-row justify-center items-center"
         >
           <h1 className={styles.heroHeading}>Asso</h1>
-          <div className={styles.heroDtext} />
           <h1 className={styles.heroHeading}>ciation</h1>
         </motion.div>
       </div>
 
       <motion.div
-        varients={slideIn('right', 'tween', 0.2, 1)}
+        variants={slideIn('right', 'tween', 0.2, 1)}
         className="relative w-full md:-mt-[20px] -mt-[12px]"
-      />
+      >
+        <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[140px] z-[0] -top-[30px]" />
+        <img
+          src="/cover.png"
+          alt="cover"
+          className="w-full sm:h-[400px] h-[350px] object-cover rounded-tl-[140px] z-10 relative"
+        />
+        <a href="#explore">
+          <div className="w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10">
+            <img
+              src="/stamp.png"
+              alt="stamp"
+              className="sm:w-[155px] w-[100px] sm:h-[155px] h-[100px] object-contain"
+            />
+          </div>
+        </a>
+      </motion.div>
     </motion.div>
   </section>
 );
