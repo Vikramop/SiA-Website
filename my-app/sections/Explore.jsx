@@ -1,9 +1,5 @@
 'use client';
 
-const Explore = () => (
-  <section>
-    Explore section
-  </section>
-);
+const Explore = () => <section>Evolve section</section>;
 
 export default Explore;
