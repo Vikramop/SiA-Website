@@ -7,10 +7,6 @@ import styles from '../styles';
 import { fadeIn, staggerContainer } from '../utils/motion';
 
 const About = () => (
-<<<<<<< HEAD
-  <section>
-   Abou
-=======
   <section className={`${styles.paddings} relative z-10`}>
     <div className="gradient-02 z-0" />
     <motion.div
@@ -26,21 +22,20 @@ const About = () => (
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
         Silicon association (SiA) is the E&CE department student chapter it was
-        established in the year of 2009. The Organization has emerged as a platform
-        overseeing the interest of the students. SiA is conceived with an idea
-        to provide a platform for it's members to organize events, social
-        awareness and beneficial camps, lectures through the year. Active
+        established in the year of 2009. The Organization has emerged as a
+        platform overseeing the interest of the students. SiA is conceived with
+        an idea to provide a platform for it's members to organize events,
+        social awareness and beneficial camps, lectures through the year. Active
         participation equips and empowers students with experience, confidence
         and personal growth when they come out their academic precincts. It tend
         to expose students to professional environment and to make a mark on
         career development. SiA aims to showcase the hidden talent of every
-        student by providing platform in technical and non - technical fields. It
-        creates a healthy, competitive, socialistic and interactive environment
-        among the students.
+        student by providing platform in technical and non - technical fields.
+        It creates a healthy, competitive, socialistic and interactive
+        environment among the students.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
       </motion.p>
     </motion.div>
     About section
->>>>>>> 2e82200202ac6d15a9da21540356a6fb904edc2e
   </section>
 );
 
