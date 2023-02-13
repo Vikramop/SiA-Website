@@ -32,7 +32,7 @@ const About = () => (
         career development. SiA aims to showcase the hidden talent of every
         student by providing platform in technical and non - technical fields.
         It creates a healthy, competitive, socialistic and interactive
-        environment among the students.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+        environment among the students.
       </motion.p>
     </motion.div>
     About section
