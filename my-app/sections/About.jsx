@@ -2,7 +2,7 @@
 
 const About = () => (
   <section>
-    About section
+   Abou
   </section>
 );
 
